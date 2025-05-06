@@ -1,4 +1,4 @@
-images/
+/vendor/
 src/logs/*.log
 !src/logs/.gitkeep
-/vendor/
+vendor/
