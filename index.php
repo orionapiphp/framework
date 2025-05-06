@@ -1,9 +1,9 @@
 <?php
 require_once "vendor/autoload.php";
 
-use App\Services\TestService;
-use Core\App;
-use Core\Http\Router;
+use OrionApi\App\Services\TestService;
+use OrionApi\Core\App;
+use OrionApi\Core\Http\Router;
 
 
 /**

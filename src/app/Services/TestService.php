@@ -1,11 +1,11 @@
 <?php
 
 
-namespace App\Services;
+namespace OrionApi\App\Services;
 
-use Core\Enums\HttpStatus;
-use Core\Http\Response;
-use Core\Log\LoggerFactory;
+use OrionApi\Core\Enums\HttpStatus;
+use OrionApi\Core\Http\Response;
+use OrionApi\Core\Log\LoggerFactory;
 
 class TestService{
 

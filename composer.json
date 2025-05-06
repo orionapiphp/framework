@@ -1,5 +1,5 @@
 {
-    "name": "shyamdubey/fastphp",
+    "name": "orionapi/framework",
     "description": "A Light Weight PHP Framework for creating RestFul APIs.",
     "type": "project",
     "license": "Apache-2.0",
@@ -10,17 +10,17 @@
     ],
     "autoload": {
         "psr-4": {
-            "Core\\": "src/core/",
-            "App\\": "src/app/"
+            "OrionApi\\App\\": "src/app/"
         }
     },
     "minimum-stability": "stable",
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/shyamdubey/fast-php"
+            "type":"vcs",
+            "url":"https://github.com/orionapiphp/framework.git"
         }
     ],
     "require": {
+        "orionapi/core":"v1.0.0"
     }
 }

@@ -6,6 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Core\\' => array($baseDir . '/src/core'),
-    'App\\' => array($baseDir . '/src/app'),
+    'OrionApi\\Core\\' => array($vendorDir . '/orionapi/core/src/core'),
+    'OrionApi\\App\\' => array($baseDir . '/src/app'),
 );

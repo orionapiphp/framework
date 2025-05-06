@@ -7,22 +7,19 @@ namespace Composer\Autoload;
 class ComposerStaticInitd751713988987e9331980363e24189ce
 {
     public static $prefixLengthsPsr4 = array (
-        'C' => 
+        'O' => 
         array (
-            'Core\\' => 5,
-        ),
-        'A' => 
-        array (
-            'App\\' => 4,
+            'OrionApi\\Core\\' => 14,
+            'OrionApi\\App\\' => 13,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Core\\' => 
+        'OrionApi\\Core\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/core',
+            0 => __DIR__ . '/..' . '/orionapi/core/src/core',
         ),
-        'App\\' => 
+        'OrionApi\\App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/app',
         ),

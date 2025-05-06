@@ -1,9 +1,9 @@
 <?php
 
 
-namespace App;
+namespace OrionApi\App;
 
-use Core\Log\LogPattern;
+use OrionApi\Core\Log\LogPattern;
 
 class Settings{
 
@@ -12,5 +12,5 @@ class Settings{
     const LOG_IN_CUSTOM_DIR = true;
     const LOG_DIR = __DIR__."/../logs";
     const LOG_FILE_PATTERN = LogPattern::DDMMYYYY_LOGS ; //%d-%m-%y_logs.log [%d = date, %m = month , %y = year]
-    const CORS_DOMAINS = ["localhost:8085"];
+    const CORS_DOMAINS = ["*"];
 }
